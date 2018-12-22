@@ -1,0 +1,11 @@
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\bin\Debug\LibraryManagement-Beta.exe.config
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.csprojResolveAssemblyReference.cache
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmMain.resources
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.Properties.Resources.resources
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.csproj.GenerateResource.Cache
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.exe.licenses
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\bin\Debug\LibraryManagement-Beta.exe
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\bin\Debug\LibraryManagement-Beta.pdb
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmStudentDefine.resources
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.exe
+c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.pdb
