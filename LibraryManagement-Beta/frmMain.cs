@@ -19,7 +19,9 @@ namespace LibraryManagement_Beta
 
         private void mnKitapTanımlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            frmBookDefine fbook = new frmBookDefine();
+            fbook.MdiParent = this;
+            fbook.Show();
         }
 
         private void mnOgrenciTanımlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -27,6 +29,18 @@ namespace LibraryManagement_Beta
             frmStudentDefine fuser = new frmStudentDefine();
             fuser.MdiParent = this;
             fuser.Show();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            cons.setConnectionString();
+        }
+
+        private void mnKitapHar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmIssueBook fbook = new frmIssueBook();
+            fbook.MdiParent = this;
+            fbook.Show();
         }
     }
 }

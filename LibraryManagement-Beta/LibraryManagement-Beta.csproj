@@ -58,6 +58,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\cCommandBuilder.cs" />
+    <Compile Include="Base\conscs.cs" />
+    <Compile Include="frmBookDefine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBookDefine.Designer.cs">
+      <DependentUpon>frmBookDefine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIssueBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIssueBook.Designer.cs">
+      <DependentUpon>frmIssueBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +85,12 @@
     <Compile Include="frmStudentDefine.Designer.cs">
       <DependentUpon>frmStudentDefine.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmBookDefine.resx">
+      <DependentUpon>frmBookDefine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIssueBook.resx">
+      <DependentUpon>frmIssueBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>

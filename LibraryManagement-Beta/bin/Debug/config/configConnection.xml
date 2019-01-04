@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<myDataSet xmlns="NetFrameWork">
+  <myTable>
+    <servername>KEYMM</servername>
+    <databasename>DbLibraryManagement</databasename>
+    <username>sa</username>
+    <password>12355</password>
+  </myTable>
+</myDataSet>

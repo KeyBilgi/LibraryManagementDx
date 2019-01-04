@@ -50,11 +50,11 @@
             this.mail = new DevExpress.XtraGrid.Columns.GridColumn();
             this.cinsiyet = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemImageComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox();
+            this.ımageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             this.okul = new DevExpress.XtraGrid.Columns.GridColumn();
             this.sinif = new DevExpress.XtraGrid.Columns.GridColumn();
             this.donem = new DevExpress.XtraGrid.Columns.GridColumn();
             this.aciklama = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.ımageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.mainRibbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -77,7 +77,7 @@
             this.mainRibbonPage});
             this.mainRibbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.mainRibbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
-            this.mainRibbonControl.Size = new System.Drawing.Size(1178, 146);
+            this.mainRibbonControl.Size = new System.Drawing.Size(1194, 146);
             this.mainRibbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
             // bbiSave
@@ -130,7 +130,7 @@
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemImageComboBox1});
-            this.gridControl1.Size = new System.Drawing.Size(1178, 442);
+            this.gridControl1.Size = new System.Drawing.Size(1194, 450);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -275,6 +275,12 @@
             this.repositoryItemImageComboBox1.Name = "repositoryItemImageComboBox1";
             this.repositoryItemImageComboBox1.SmallImages = this.ımageCollection1;
             // 
+            // ımageCollection1
+            // 
+            this.ımageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("ımageCollection1.ImageStream")));
+            this.ımageCollection1.Images.SetKeyName(0, "female.png");
+            this.ımageCollection1.Images.SetKeyName(1, "male.png");
+            // 
             // okul
             // 
             this.okul.Caption = "OKUL";
@@ -311,22 +317,17 @@
             this.aciklama.VisibleIndex = 13;
             this.aciklama.Width = 73;
             // 
-            // ımageCollection1
-            // 
-            this.ımageCollection1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("ımageCollection1.ImageStream")));
-            this.ımageCollection1.Images.SetKeyName(0, "female.png");
-            this.ımageCollection1.Images.SetKeyName(1, "male.png");
-            // 
             // frmStudentDefine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.ClientSize = new System.Drawing.Size(1178, 588);
+            this.ClientSize = new System.Drawing.Size(1194, 596);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.mainRibbonControl);
             this.Name = "frmStudentDefine";
             this.Ribbon = this.mainRibbonControl;
+            this.Text = "ÖĞRENCİ TANIMLARI";
             this.Load += new System.EventHandler(this.frmStudentDefine_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mainRibbonControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
