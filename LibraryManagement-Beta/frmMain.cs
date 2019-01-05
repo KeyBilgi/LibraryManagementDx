@@ -42,12 +42,5 @@ namespace LibraryManagement_Beta
             fbook.MdiParent = this;
             fbook.Show();
         }
-
-        private void mnLocationTanim_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            frmLokasyonDefine frm = new frmLokasyonDefine();
-            frm.MdiParent = this;
-            frm.Show();
-        }
     }
 }
