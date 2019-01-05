@@ -72,6 +72,12 @@
     <Compile Include="frmIssueBook.Designer.cs">
       <DependentUpon>frmIssueBook.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLokasyonDefine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLokasyonDefine.Designer.cs">
+      <DependentUpon>frmLokasyonDefine.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmIssueBook.resx">
       <DependentUpon>frmIssueBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLokasyonDefine.resx">
+      <DependentUpon>frmLokasyonDefine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -125,9 +134,13 @@
   <ItemGroup>
     <Content Include="Resources\363.jpg" />
     <Content Include="Resources\add32.ico" />
+    <Content Include="Resources\book1.png" />
+    <Content Include="Resources\book2.png" />
     <Content Include="Resources\books.png" />
     <Content Include="Resources\books16x16.png" />
     <Content Include="Resources\books32x32.png" />
+    <Content Include="Resources\issuebook.png" />
+    <Content Include="Resources\shelf.png" />
     <Content Include="Resources\students.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

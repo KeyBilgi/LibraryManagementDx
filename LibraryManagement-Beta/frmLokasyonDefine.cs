@@ -12,7 +12,7 @@ using LibraryManagement;
 
 namespace LibraryManagement_Beta
 {
-    public partial class frmLokasyonDefine : Form
+    public partial class frmLokasyonDefine : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         public frmLokasyonDefine()
         {
