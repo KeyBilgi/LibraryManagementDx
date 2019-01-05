@@ -11,3 +11,17 @@ c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\Libr
 C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.csprojResolveAssemblyReference.cache
 C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmBookDefine.resources
 C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmIssueBook.resources
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\bin\Debug\LibraryManagement-Beta.exe.config
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.exe
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.pdb
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\bin\Debug\LibraryManagement-Beta.exe
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\bin\Debug\LibraryManagement-Beta.pdb
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.csprojResolveAssemblyReference.cache
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmBookDefine.resources
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmIssueBook.resources
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmMain.resources
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmStudentDefine.resources
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.Properties.Resources.resources
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.csproj.GenerateResource.Cache
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.exe.licenses
+C:\Users\KEYMZ\Documents\GitHub\LibraryManagementDx\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmLokasyonDefine.resources

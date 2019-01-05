@@ -35,6 +35,7 @@
             this.mnKitapHar = new DevExpress.XtraBars.BarButtonItem();
             this.mnStudentRep = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.mnLocationTanim = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -58,9 +59,10 @@
             this.mnOgrenciTanımlar,
             this.mnKitapHar,
             this.mnStudentRep,
-            this.barButtonItem1});
+            this.barButtonItem1,
+            this.mnLocationTanim});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 10;
+            this.ribbonControl1.MaxItemId = 11;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -101,6 +103,13 @@
             this.barButtonItem1.Id = 9;
             this.barButtonItem1.Name = "barButtonItem1";
             // 
+            // mnLocationTanim
+            // 
+            this.mnLocationTanim.Caption = "Lokasyon Tanımları";
+            this.mnLocationTanim.Id = 10;
+            this.mnLocationTanim.Name = "mnLocationTanim";
+            this.mnLocationTanim.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.mnLocationTanim_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -112,6 +121,8 @@
             // 
             this.ribbonPageGroup1.ItemLinks.Add(this.mnKitapTanımlar, true);
             this.ribbonPageGroup1.ItemLinks.Add(this.mnOgrenciTanımlar, true);
+            this.ribbonPageGroup1.ItemLinks.Add(this.mnLocationTanim);
+            this.ribbonPageGroup1.ItemsLayout = DevExpress.XtraBars.Ribbon.RibbonPageGroupItemsLayout.OneRow;
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.Text = "Tanımlar";
             // 
@@ -196,5 +207,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage mnRaporlar;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem mnLocationTanim;
     }
 }
