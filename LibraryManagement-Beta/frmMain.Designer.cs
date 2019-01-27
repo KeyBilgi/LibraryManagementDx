@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.mnKitapTanımlar = new DevExpress.XtraBars.BarButtonItem();
             this.mnOgrenciTanımlar = new DevExpress.XtraBars.BarButtonItem();
@@ -44,6 +45,9 @@
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
+            this.mnLocationDefine = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).BeginInit();
@@ -58,9 +62,11 @@
             this.mnOgrenciTanımlar,
             this.mnKitapHar,
             this.mnStudentRep,
-            this.barButtonItem1});
+            this.barButtonItem1,
+            this.mnLocationDefine,
+            this.barButtonItem2});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 10;
+            this.ribbonControl1.MaxItemId = 13;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -72,6 +78,8 @@
             // 
             this.mnKitapTanımlar.Caption = "Kitap Tanımları";
             this.mnKitapTanımlar.Id = 5;
+            this.mnKitapTanımlar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("mnKitapTanımlar.ImageOptions.Image")));
+            this.mnKitapTanımlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("mnKitapTanımlar.ImageOptions.LargeImage")));
             this.mnKitapTanımlar.Name = "mnKitapTanımlar";
             this.mnKitapTanımlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.mnKitapTanımlar_ItemClick);
             // 
@@ -79,6 +87,7 @@
             // 
             this.mnOgrenciTanımlar.Caption = "Öğrenci Tanımları";
             this.mnOgrenciTanımlar.Id = 6;
+            this.mnOgrenciTanımlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("mnOgrenciTanımlar.ImageOptions.LargeImage")));
             this.mnOgrenciTanımlar.Name = "mnOgrenciTanımlar";
             this.mnOgrenciTanımlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.mnOgrenciTanımlar_ItemClick);
             // 
@@ -86,19 +95,21 @@
             // 
             this.mnKitapHar.Caption = "Kitap Ver";
             this.mnKitapHar.Id = 7;
+            this.mnKitapHar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("mnKitapHar.ImageOptions.LargeImage")));
             this.mnKitapHar.Name = "mnKitapHar";
             this.mnKitapHar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.mnKitapHar_ItemClick);
             // 
             // mnStudentRep
             // 
-            this.mnStudentRep.Caption = "Rapor";
+            this.mnStudentRep.Caption = "Kitap Durum Raporu";
             this.mnStudentRep.Id = 8;
             this.mnStudentRep.Name = "mnStudentRep";
             // 
             // barButtonItem1
             // 
-            this.barButtonItem1.Caption = "Kitap Ver";
+            this.barButtonItem1.Caption = "Kitap Al";
             this.barButtonItem1.Id = 9;
+            this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
             this.barButtonItem1.Name = "barButtonItem1";
             // 
             // ribbonPage1
@@ -112,6 +123,7 @@
             // 
             this.ribbonPageGroup1.ItemLinks.Add(this.mnKitapTanımlar, true);
             this.ribbonPageGroup1.ItemLinks.Add(this.mnOgrenciTanımlar, true);
+            this.ribbonPageGroup1.ItemLinks.Add(this.mnLocationDefine, true);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.Text = "Tanımlar";
             // 
@@ -132,7 +144,8 @@
             // mnRaporlar
             // 
             this.mnRaporlar.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup3});
+            this.ribbonPageGroup3,
+            this.ribbonPageGroup4});
             this.mnRaporlar.Name = "mnRaporlar";
             this.mnRaporlar.Text = "Raporlar";
             // 
@@ -157,6 +170,26 @@
             // defaultLookAndFeel1
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2016 Colorful";
+            // 
+            // mnLocationDefine
+            // 
+            this.mnLocationDefine.Caption = "Lokasyon Tanımları";
+            this.mnLocationDefine.Id = 10;
+            this.mnLocationDefine.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("mnLocationDefine.ImageOptions.LargeImage")));
+            this.mnLocationDefine.Name = "mnLocationDefine";
+            this.mnLocationDefine.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.mnLocationDefine_ItemClick);
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            this.ribbonPageGroup4.Text = "ribbonPageGroup4";
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "Öğrenci Durum Raporu";
+            this.barButtonItem2.Id = 12;
+            this.barButtonItem2.Name = "barButtonItem2";
             // 
             // frmMain
             // 
@@ -196,5 +229,8 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage mnRaporlar;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem mnLocationDefine;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
     }
 }

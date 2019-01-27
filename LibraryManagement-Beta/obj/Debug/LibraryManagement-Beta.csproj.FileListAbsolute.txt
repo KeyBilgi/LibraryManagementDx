@@ -11,3 +11,4 @@ c:\users\keymm\documents\visual studio 2013\Projects\LibraryManagement-Beta\Libr
 C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement-Beta.csprojResolveAssemblyReference.cache
 C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmBookDefine.resources
 C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmIssueBook.resources
+C:\Users\KEYMM\Documents\Visual Studio 2013\Projects\LibraryManagement-Beta\LibraryManagement-Beta\obj\Debug\LibraryManagement_Beta.frmLokasyonDefine.resources
